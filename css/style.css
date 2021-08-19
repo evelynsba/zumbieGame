@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: url("https://windowsice.files.wordpress.com/2012/09/cidade-fantasma.jpg") center/100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    color: greenyellow;
+}
+.intro{
+    border: 2px solid white;
+    width: 300px;
+    height: 400px;
+    color: aquamarine;
+    justify-content: center;
+}
+.personagem{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    padding: 10px 10px;
+    max-width: 100%;
+    
+    /* thirdScreen style */
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+.box {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(white,white,white 0.2);
+    width: calc((100% / 3) - 2rem); /* calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+    border: 1px solid white;
+    box-shadow: white 3px 3px 3px;
+}
+.box:hover{
+    top: -10px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.personagems{
+    color: aliceblue;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+      margin: 1em 2em;
+    }
+  }
