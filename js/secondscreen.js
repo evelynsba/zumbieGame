@@ -1,8 +1,14 @@
 
 // var userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
+window.onload = function() {
+    setTimeout(ajudarCindy, 50000)
+ };
+
 function ajudarCindy(){
-    var userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
+    console.log("oi")
+    
+    const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
     if(userInput == "SIM"){
         open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/projeto1/thirdscreen.html")
@@ -14,4 +20,7 @@ function ajudarCindy(){
     }
 
 }
+// document.querySelector('img.pngegg.png').addEventListener('load', function(){
+//     // The image is ready!
+//   });
 ajudarCindy();

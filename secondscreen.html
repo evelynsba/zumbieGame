@@ -10,8 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">  
     <title>Introduction</title>
 </head>
-<body>
-    <div class=intro>
+<header>
+    <nav>
+
+    </nav>
+</header>
+<body >
+    <div class=intro id="intro">
         <div class="text">
             <h1>Cindy</h1>
             <p> ela tem 22 anos, etudante de medicina, ama animais e pessoas, e odeia bebida alccolica</p> 
@@ -22,7 +27,15 @@
             <img src="img/pngegg.png" alt="cindy">
         </div>
     </div>
+    <script>
+        document.getElementById("intro").addEventListener("load", ajudarCindy);
+        
+        function ajudarCindy() {
+        //   document.getElementById("demo").innerHTML = "Iframe is loaded.";
+        alert("page is loaded")
+        }
+        </script>
 
 </body>
-<script src="js/secondscreen.js"></script>
+<!-- <script src="js/secondscreen.js"></script> -->
 </html>
