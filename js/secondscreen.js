@@ -1,9 +1,9 @@
 
 // var userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
-window.onload = function() {
+
     setTimeout(ajudarCindy, 50000)
- };
+
 
 function ajudarCindy(){
     console.log("oi")
@@ -23,4 +23,3 @@ function ajudarCindy(){
 // document.querySelector('img.pngegg.png').addEventListener('load', function(){
 //     // The image is ready!
 //   });
-ajudarCindy();
