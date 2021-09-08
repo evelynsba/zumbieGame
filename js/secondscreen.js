@@ -6,20 +6,18 @@ intervalo = setTimeout(function() {ajudarCindy(); clearInterval(intervalo)}, 500
 
 
 function ajudarCindy(){
-    console.log("oi")
+
     
     const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
-    if(userInput == "SIM"){
+    if(userInput == "SIM" || userInput == "sim"){
         open("./src/thirdscreen.html")
         
     }
     else{
-        alert('GAME OVER VOCE DEVE DIGITAR SIM');
+        open("./src/lucasFinal.html");
         
     }
 
 }
-// document.querySelector('img.pngegg.png').addEventListener('load', function(){
-//     // The image is ready!
-//   });
+
