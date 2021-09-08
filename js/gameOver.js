@@ -1,5 +1,5 @@
 
 
 function goBack(){
- open("index.html")
+    open("index.html");
 }
