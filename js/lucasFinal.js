@@ -5,7 +5,7 @@ function lucasFinal(){
     var elemento = document.querySelector("#lucas");
     
     elemento.addEventListener("click", function(){
-    window.open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/zumbieGame/src/finalLucas.html");
+    window.open("./src/finalLucas.html");
 });
 }
 

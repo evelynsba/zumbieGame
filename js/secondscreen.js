@@ -11,7 +11,7 @@ function ajudarCindy(){
     const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
     if(userInput == "SIM"){
-        open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/zumbieGame/src/thirdscreen.html")
+        open("./src/thirdscreen.html")
         
     }
     else{

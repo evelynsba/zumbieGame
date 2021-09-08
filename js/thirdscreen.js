@@ -6,7 +6,7 @@ function rogerFinal(){
     var elemento = document.querySelector("#roger");
     
     elemento.addEventListener("click", function(){
-    window.open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/zumbieGame/src/finalRoger.html");
+    window.open("./src/finalRoger.html");
 });
 }
 
