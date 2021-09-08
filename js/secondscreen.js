@@ -8,7 +8,7 @@ intervalo = setTimeout(function() {ajudarCindy(); clearInterval(intervalo)}, 500
 function ajudarCindy(){
 
     
-    const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
+    const userInput = prompt(" Vamos ajudar Cindy?");
 
     if(userInput == "SIM" || userInput == "sim"){
         open("thirdscreen.html");
