@@ -6,7 +6,7 @@ function rogerFinal(){
     var elemento = document.querySelector("#roger");
     
     elemento.addEventListener("click", function(){
-    window.open("./src/finalRoger.html");
+    window.open("./finalRoger.html");
 });
 }
 
