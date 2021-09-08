@@ -13,4 +13,4 @@ document.getElementById('back').addEventListener(
 function goBack(){
     open("../index.html");
 }
-
+goBack();
