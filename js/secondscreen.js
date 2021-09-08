@@ -1,8 +1,8 @@
 
 // var userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
+var intervalo = '';
 
-
-    setTimeout(ajudarCindy, 50000)
+intervalo = setTimeout(function() {ajudarCindy(); clearInterval(intervalo)}, 5000);
 
 
 function ajudarCindy(){
@@ -11,7 +11,7 @@ function ajudarCindy(){
     const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
     if(userInput == "SIM"){
-        open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/projeto1/thirdscreen.html")
+        open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/zumbieGame/src/thirdscreen.html")
         
     }
     else{

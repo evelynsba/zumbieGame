@@ -13,7 +13,7 @@ botao.addEventListener("click", function(){
    alert("button was clicked");
 }
 else{
-    open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/projeto1/secondscreen.html")
+    open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/zumbieGame/src/secondscreen.html")
 }
 });
 
