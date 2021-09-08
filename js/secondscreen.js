@@ -11,11 +11,11 @@ function ajudarCindy(){
     const userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
 
     if(userInput == "SIM" || userInput == "sim"){
-        open("./thirdscreen.html");
+        open("thirdscreen.html");
         
     }
     else{
-        open("./finalLucas.html");
+        open("/finalLucas.html");
         
     }
 
