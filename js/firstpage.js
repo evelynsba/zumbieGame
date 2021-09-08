@@ -4,5 +4,5 @@ const botao = document.getElementById('button');
 
 
 function abrirNovaAba(){
-    open("file:///C:/Users/Dell%20E7450%20i5/Desktop/resilia/projeto1/secondscreen.html")
+    open("./src/secondscreen.html")
 }
