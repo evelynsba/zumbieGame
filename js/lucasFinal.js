@@ -5,7 +5,7 @@ function lucasFinal(){
     var elemento = document.querySelector("#lucas");
     
     elemento.addEventListener("click", function(){
-    window.open("./src/finalLucas.html");
+    window.open("./finalLucas.html");
 });
 }
 
