@@ -15,7 +15,7 @@ function ajudarCindy(){
         
     }
     else{
-        open("./src/lucasFinal.html");
+        open("./src/finalLucas.html");
         
     }
 
