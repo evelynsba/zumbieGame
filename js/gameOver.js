@@ -4,7 +4,7 @@ function stopDefAction(evt) {
     evt.preventDefault();
 }
 
-document.getElementById('goBack').addEventListener(
+document.getElementById('back').addEventListener(
     'click', stopDefAction, false
 );
 
