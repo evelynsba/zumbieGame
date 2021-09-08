@@ -1,5 +1,5 @@
 
-// var userInput = prompt(" Se vc quer ajudar Cindy digite SIM");
+
 var intervalo = '';
 
 intervalo = setTimeout(function() {ajudarCindy(); clearInterval(intervalo)}, 5000);
